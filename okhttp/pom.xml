@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>in.datalayer</groupId>
+  <artifactId>okhttp</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>jar</packaging>
+
+  <name>okhttp</name>
+  <description>okhttp</description>
+  <url>https://github.com/code-layer/java-rest-clients</url>
+
+  <properties>
+      <finalName>${project.artifactId}-${project.version}</finalName>
+      <java.version>11</java.version>
+      <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <maven.compiler.source>17</maven.compiler.source>
+      <maven.compiler.target>17</maven.compiler.target>
+  </properties>
+
+  <dependencies>
+	<dependency>
+	    <groupId>com.squareup.okhttp3</groupId>
+	    <artifactId>okhttp</artifactId>
+	    <version>4.9.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.squareup.okhttp3</groupId>
+	    <artifactId>logging-interceptor</artifactId>
+	    <version>4.9.0</version>
+	</dependency>
+  </dependencies>
+</project>
